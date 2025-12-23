@@ -68,7 +68,7 @@ h1 {
     margin-right: 5px;
 }
 
-.navbar {
+#navbar {
     background-image: url(street-imgs/signs1.jpg);
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
@@ -143,11 +143,13 @@ h1 {
 /* right side bar */
 
 .right-aside{
-    width: 22%;
     /* height: 800px; */
     float: left;
     margin-left: 5px;
     align-items: center;
+}
+#right-home{
+    width: 22%;
 }
 
 .info {
@@ -384,6 +386,21 @@ details {
     margin-top: 0px;
  }
 
+#books-nav {
+    background-image: url(street-imgs/signs2.jpg);
+    background-repeat: no-repeat;
+    background-color: #505050c7;
+    background-blend-mode: multiply;
+    /* background-attachment: fixed; */
+    background-size: 100%;
+    height: 420px;
+    padding-top: 3%;
+}
+
+.books-box{
+    float: left;
+    height: 100px;
+}
 
 /* animations */
 @keyframes blink {
