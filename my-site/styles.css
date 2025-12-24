@@ -343,6 +343,12 @@ footer {
     width: 100%;
 }
 
+#created{
+    color: var(--secondaryTextColor);
+    text-align: right;
+    font-size: small;
+}
+
 /* Specific to other pages */
 .sec-title{
     font-size: 30px;
